@@ -1,0 +1,227 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: .8em;
+}
+
+.grid-box {
+  /* display: grid; */
+  width: 100%;
+  /* grid:
+    'header' 15vh
+    'background' 85vh
+    'quem-somos' 100vh
+    'nossos-projetos' 90vh
+    'onde-estamos' 70vh
+    'rodape' 35vh
+    'credits' 2%; */
+}
+
+.header {
+  grid-area: 'header';
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 2% 0;
+  background-color: #2b5e28;
+}
+
+.logo {
+  height: 60%;
+  margin: 0 0 0 2%;
+}
+
+.menu {
+  margin-right: 2%;
+}
+
+.menu .list {
+  list-style: none;
+  display: flex;
+}
+
+.menu .list .item {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 50px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  transition: ease-in-out 0.5s;
+}
+
+.menu .item:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #497845;
+}
+
+.background-container {
+  grid-area: 'background';
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-img {
+  height: 100%;
+  width: 100%;
+}
+
+.logo-img {
+  position: absolute;
+  height: 60%;
+}
+
+.quem-somos,
+.nossos-projetos,
+.onde-estamos {
+  background-color: #477943;
+  font-size: 2rem;
+  padding: 5% 2%;
+  
+}
+
+/* QUEM SOMOS */
+.quem-somos {
+  grid-area: 'quem-somos';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.quem-somos h2,
+.nossos-projetos h2,
+.onde-estamos h2 {
+  margin-bottom: 30px;
+}
+
+.quem-somos .text-content {
+  width: 50%;
+}
+
+.quem-somos img {
+  height: 50%;
+}
+
+/* NOSSOS PROJETOS */
+
+.nossos-projetos {
+  grid-area: 'nossos-projetos';
+  background-color: #2b5e28;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.nossos-projetos .slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nossos-projetos .text-content {
+  margin-bottom: 30px;
+}
+
+.nossos-projetos .slider-container .section-background {
+  height: 50%;
+  margin-left: 5%;
+}
+
+/* ONDE ESTAMOS */
+.onde-estamos {
+  grid-area: 'onde-estamos';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+}
+
+.onde-estamos .text-content {
+  width: 50%;
+}
+
+.onde-estamos img {
+  height: 70%;
+  margin-left: 10%;
+}
+
+/* RODAPE */
+
+.rodape {
+  grid-area: 'rodape';
+  background-color: #2b5e28;
+  font-size: 7rem;
+  padding: 5% 2%;
+  position: relative;
+}
+
+.rodape .footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rodape .social a:not(:last-child) {
+  margin-right: 30px;
+}
+
+.rodape .social a {
+  height: 100%;
+  padding: 1px 0;
+}
+
+.rodape .social .social-img {
+  font-size: 2.5rem;
+  margin: 1px 0;
+}
+
+.rodape .contact h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.rodape .contact p {
+  font-size: 2rem;
+}
+
+.rodape .menu {
+  margin: 0px 0 0 0px;
+}
+
+.rodape .menu .list {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rodape .menu .item {
+  font-size: 1.7rem;
+}
+
+.rodape .menu .list a:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.credits {
+  grid-area: 'credits';
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credits .text {
+  font-size: 1.5rem;
+  color: gray;
+  font-style: italic;
+
+}

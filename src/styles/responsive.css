@@ -1,0 +1,203 @@
+@media (max-width: 1024px) {
+    .header .menu .list .item, 
+    .quem-somos .text-content,
+    .nossos-projetos .text-content,
+    .nossos-projetos .slider .texto-projeto,
+    .onde-estamos .text-content,
+    .rodape .contact p {
+        font-size: 1.7rem;
+    }
+    
+    .rodape .menu .list .item,
+    .credits .text {
+        font-size: 1.5rem;
+    }
+
+    .projeto .texto-projeto {
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 95vh;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    .header .menu .list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .menu .list .item {
+        font-size: 3rem;
+        margin-bottom: 35px;
+    }
+
+    .header .logo {
+        height: 30%;
+    }
+
+    .background-container {
+        height: 40vh;
+    }
+
+    .quem-somos {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .quem-somos img {
+        height: 30%;
+    }
+
+    .quem-somos .text-content {
+        font-size: 2.5rem;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .nossos-projetos {
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .nossos-projetos .text-content {
+        font-size: 2.5rem;
+    }
+
+    .nossos-projetos .slider-container {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .nossos-projetos .slider-container .section-background {
+        display: none;
+    }
+    
+    .slider {
+        width: 100%;
+    }
+    
+    .onde-estamos {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .onde-estamos .text-content {
+        font-size: 2.5rem;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .onde-estamos .text-content p {
+        width: 80%;
+    }
+
+    .onde-estamos img {
+        height: 30%;
+        margin: 0;
+    }
+
+    .rodape {
+        height: 85vh;
+    }
+
+    .rodape .footer-flex {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+    
+    .rodape .menu .list {
+        align-items: center;
+        margin-top: 20%;
+    }
+
+    .rodape .menu .list .item {
+        font-size: 2.5rem;
+        margin-bottom: 35px;
+    }
+    
+    .rodape .contact h2 {
+        display: none;
+    }
+
+    .rodape .contact p {
+        font-size: 2.5rem;
+    }
+
+    .credits {
+        height: 5vh;
+    }
+
+    .credits .text {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .header .menu .list .item, 
+    .quem-somos .text-content,
+    .nossos-projetos .text-content,
+    .nossos-projetos .slider .texto-projeto,
+    .onde-estamos .text-content,
+    .rodape .contact p,
+    .rodape .menu .list .item {
+        font-size: 1.7rem;
+    }
+    .header .menu .list .item {
+        margin: 0 0 20px 0;
+    }
+
+    .slider {
+        width: 95%;
+        height: 200px;
+    }
+
+    .slides {
+        height: 100%;
+    }
+
+    .slide img {
+        width: 400px;
+    }
+
+    .img-border {
+        display: none;
+    }
+
+    .manual-navigation {
+        width: 100%;
+        margin-top: -25px;
+    }
+
+    .projeto .texto-projeto p {
+        display: none;
+    }
+
+    .rodape .menu .list .item {
+        margin: 0 0 20px 0;
+        
+    }
+
+    .rodape .contact {
+        font-size: 2rem;
+        margin-top:35px;
+    }
+
+    .rodape .contact .social i {
+        font-size: 2rem;
+        margin-top: 40px;
+    }
+
+    .credits .text {
+        font-size: 1.5rem;
+    }
+
+    @media (min-width:) {
+        
+    }
+}
